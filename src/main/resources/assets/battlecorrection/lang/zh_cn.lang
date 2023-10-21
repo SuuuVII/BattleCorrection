@@ -58,6 +58,8 @@ config.battlecorrection.general.hungerDamageDecayLimit=饥饿伤害衰减上限
 config.battlecorrection.general.hungerDamageDecayLimit.tooltip=设置因为饥饿值伤害衰减的上限，填0.7则为伤害最多因为饥饿值降低减少70%
 
 key.battlecorrection.openModList=打开模组列表（配置）
+key.battlecorrection.keyOpenConfigList=打开可配置项目（战斗修正）
+key.battlecorrection.key= <战斗修正>
 
 item.enemy_staff.name=仇恨法杖
 item.rebel_staff.name=叛乱法杖
@@ -87,5 +89,9 @@ item.restoration_staff.tooltip=清空右键生物的所有增益负面药水效�
 message.battlecorrection.select_first=「战斗修正」成功选择第一个生物，选择下一个让它们产生仇恨吧~
 message.battlecorrection.select_second=「战斗修正」成功让这两个生物产生仇恨了~
 message.battlecorrection.select_cancel=「战斗修正」先前一个生物已经死亡，请重新选择！
+
+
+message.range_healing_staff.recoversuccess=%s 已经被成功治愈了！
+message.range_healing_staff.recoverfrom=您已经被 %s 治愈了噢！
 
 itemGroup.battlecorrection_tab=战斗修正测试工具

@@ -21,6 +21,8 @@ public class BattleCorrection {
 
     @SideOnly(Side.CLIENT)
     public static KeyBinding keyOpenModList;
+    @SideOnly(Side.CLIENT)
+    public static KeyBinding keyOpenConfigList;
 
     @Mod.Instance
     public static BattleCorrection instance;

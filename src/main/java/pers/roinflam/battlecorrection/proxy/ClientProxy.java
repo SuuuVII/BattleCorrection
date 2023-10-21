@@ -19,8 +19,10 @@ public class ClientProxy extends CommonProxy {
 
     @Override
     public void bindKey() {
-        BattleCorrection.keyOpenModList = new KeyBinding("key.battlecorrection.openModList", Keyboard.KEY_K, "key.categories.misc");
+        BattleCorrection.keyOpenModList = new KeyBinding("key.battlecorrection.openModList", Keyboard.KEY_K, "key.battlecorrection.key");
         ClientRegistry.registerKeyBinding(BattleCorrection.keyOpenModList);
+        BattleCorrection.keyOpenConfigList = new KeyBinding("key.battlecorrection.keyOpenConfigList", Keyboard.KEY_B, "key.battlecorrection.key");
+        ClientRegistry.registerKeyBinding(BattleCorrection.keyOpenConfigList);
     }
 
 }

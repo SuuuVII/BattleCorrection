@@ -57,7 +57,9 @@ config.battlecorrection.general.hungerDamageDecay.tooltip=Set the percentage of 
 config.battlecorrection.general.hungerDamageDecayLimit=unger Damage Decay Limit
 config.battlecorrection.general.hungerDamageDecayLimit.tooltip=Set the upper limit of damage reduction due to starvation, 0.7 means that damage is reduced by up to 70% due to starvation.
 
-key.battlecorrection.openModList=Open mod list
+key.battlecorrection.openModList=Open mod list~
+key.battlecorrection.keyOpenConfigList=Open mod config~
+key.battlecorrection.key= <BATTLE CORRECTION> !
 
 item.enemy_staff.name=Enemy Staff
 item.rebel_staff.name=Rebel Staff
@@ -87,5 +89,8 @@ item.restoration_staff.tooltip=Clear all buffs and enchantments on the right-cli
 message.battlecorrection.select_first=After successfully selecting the first creature, choose the next one to make them hate~
 message.battlecorrection.select_second=Successfully caused hatred between these two creatures~
 message.battlecorrection.select_cancel=The previous creature has died, please choose again!
+
+message.range_healing_staff.recoversuccess= %sEntityList has been cured！
+message.range_healing_staff.recoverfrom=You are cure by %sEntity ！
 
 itemGroup.battlecorrection_tab=BattleCorrection Test Tools
